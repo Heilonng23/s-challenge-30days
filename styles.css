@@ -72,13 +72,37 @@ h1 {
 }
 .container2{
     text-align: center;
+    border: 2px solid white;
+    width: 40%;
+    padding-right: 40px;
+    font-size: 1.1em;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 2px 2px white;
+    padding-bottom: 10px;
    
+}
+.text3{
+    border: none;
+    margin: 0px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: "Lora", serif;
 }
 .title1{
 
     border: none;
     box-shadow: none;
     font-family: "Lora", serif;
+}
+.title2{
+    border: none;
+    box-shadow: none;
+}
+.bebetter{
+    font-size: 1.3rem;
 }
 
 .day,
