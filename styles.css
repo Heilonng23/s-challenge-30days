@@ -127,6 +127,9 @@ h1 {
     font-size: 1.1em;
     font-family: "Lora", serif;
 }
+.titles{
+    display: inline-flex;
+}
 .about2{
     text-decoration: none;
     color: white;
@@ -170,5 +173,9 @@ h2{
         font-size: 14px;
         padding: 0px;
         width: 80%;
+    }
+    .title1,
+    .title2{
+        font-size: 1.2em;
     }
 }
