@@ -29,7 +29,6 @@ h1 {
     justify-content: space-around;
     padding: 0px;
     gap: 20px;
-    
 }
 
 .allList {
@@ -44,22 +43,15 @@ h1 {
     margin: 0px;
 }
 
-/* ul {
-    font-size: 0.9rem;
-    list-style: none;
-    border: 2px solid white;
-    border-radius: 35px;
-    padding: 0;
-    margin: 0px;
-} */
-.explain{
+.explain {
     border: none;
     margin: 0px;
     text-align: left;
     font-size: 1.3rem;
     font-family: "Lora", serif;
 }
-.container1{
+
+.container1 {
     text-align: center;
     border: 2px solid white;
     width: 40%;
@@ -70,7 +62,8 @@ h1 {
     border-radius: 40px;
     box-shadow: 2px 2px white;
 }
-.container2{
+
+.container2 {
     text-align: center;
     border: 2px solid white;
     width: 40%;
@@ -82,42 +75,68 @@ h1 {
     border-radius: 40px;
     box-shadow: 2px 2px white;
     padding-bottom: 10px;
-   
 }
-.text3{
+
+.text3 {
     border: none;
     margin: 0px;
     text-align: left;
     font-size: 1.3rem;
     font-family: "Lora", serif;
 }
-.title1{
 
+.title1 {
     border: none;
     box-shadow: none;
     font-family: "Lora", serif;
 }
-.title2{
+
+.title2 {
     border: none;
     box-shadow: none;
 }
-.bebetter{
+
+.bebetter {
     font-size: 1.3rem;
+}
+
+.titles {
+    display: inline-flex;
+}
+
+.about2 {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 10px;
+    box-shadow: 4px 4px white;
+}
+
+.about2:hover {
+    box-shadow: 2px 2px;
+}
+
+h2 {
+    margin: 30px;
+    border: none;
 }
 
 .day,
 .task {
     border-radius: 35px;
     display: inline-block;
-    width: 100%; /* Adjusted for responsiveness */
-    max-width: 200px; /* Added for responsiveness */
+    width: 100%;
+    max-width: 200px;
     border: 2px solid white;
     padding: 10px;
     margin: 14px;
     text-align: center;
     cursor: pointer;
 }
-.text1{
+
+.text1 {
     text-align: center;
     padding: 0px;
     width: 100%;
@@ -127,55 +146,25 @@ h1 {
     font-size: 1.1em;
     font-family: "Lora", serif;
 }
-.titles{
-    display: inline-flex;
-}
-.about2{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    border: 2px solid white;
-    border-radius: 35px;
-    padding: 10px;
-    box-shadow: 4px 4px white;
-}
-.about2:hover{
-    box-shadow: 2px 2px;
-}
-h2{
-    margin: 30px;
-    border: none;
-}
-.day:hover,
-.task:hover {
-    border: 2px solid white;
-    box-shadow: 4px 4px white;
-    background-color: rgb(86, 83, 83);
-}
-.completed:hover{
+
+.completed:hover {
     background-color: rgb(86, 156, 86);
 }
+
 .completed {
     background-color: rgb(86, 156, 86);
     text-decoration: line-through;
 }
 
-@media screen and (max-width: 768px) {
-    .allTog {
-        flex-direction: column; /* Change to column layout for smaller screens */
-        align-items: center; /* Center items vertically */
-    }
-    
-    .allList {
-        width: 90%; /* Adjust width for better fit on smaller screens */
-    }
-    .text1 {
-        font-size: 14px;
-        padding: 0px;
-        width: 80%;
-    }
-    .title1,
-    .title2{
-        font-size: 1.2em;
-    }
+.progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    background: conic-gradient(#2ecc71 var(--fill), black var(--fill));
 }
