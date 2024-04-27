@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tasks[taskIndex].classList.add('completed');
             completedCount++;
         }
+        console.log(completedCount)
     }
 
     updateProgress(); // Update progress initially
